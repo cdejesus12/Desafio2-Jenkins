@@ -15,7 +15,7 @@ pipeline {
         }
                 stage('Git clone') {
             steps {
-                sh 'rm -r static-page/'
+               # sh 'rm -r static-page/'
                 sh 'git clone https://https://github.com/cdejesus12/Desafio2-Jenkins' 
                 sh 'ls -ls static-page/'
             }
